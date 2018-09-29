@@ -1,10 +1,10 @@
-provide:title, "About"
-  <h1>About</h1>
-  <p>
-	The <a href="http://www.railstutorial.org"><em>Ruby on Rails Tutorial</em></a>is a
-	<a href="http://www.railstutorial.org/book"></a>and
-	<a href="http://screencasts.railstutorial.org/">screencast series</a>
-	to teach web devlopment with
-	<a href="http://railstutorial.org">Ruby on Rails</a>
-	This is the sample application for the tutorial.
-	</p>
+<% provide :title, t(".about_title") %>
+<h1><%=t(".about")%></h1>
+<p>
+  <%=t(".the")%> <%= link_to t(".ror_tutorial"), Settings.static_pages.rails%> <%=t(".is_a")%>
+  <%=link_to t(".book"), Settings.static_pages.rails_book%> <%=t(".and")%>
+  <%=link_to t(".screencast_series"), Settings.static_pages.screencasts%>
+  <%=t(".to_teach")%>
+  <%=link_to t(".ruby_on"), Settings.static_pages.rails%>
+  <%=t(".this_is")%>
+</p>
