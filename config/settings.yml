@@ -8,3 +8,7 @@ static_pages:
 users:
   max_name: 50
   max_pass: 255
+layouts:
+  rails: "http://www.railstutorial.org/"
+  news: "http://news.railstutorial.org/"
+  michael: "http://www.michaelhartl.com/"
