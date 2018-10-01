@@ -1,0 +1,52 @@
+vi:
+  static_pages:
+    home:
+      sign_up: "Đăng kí ngay!!"
+      home_title: "Chào mừng tới Sample app"
+      sample_app: "Sample App"
+      this_is: "Đây là trang chủ cho"
+      ruby_on: "Ruby on rails Tutorials"
+      samapp: "ứng dụng sample."
+    help:
+      help_title: "Hỗ trợ"
+      help: "Hỗ trợ"
+      get_help_on: "Tìm kiếm sự hỗ trợ trên Ruby on Rails Tutorial tại"
+      rails_tutorial: "Rails Tutorial phần hỗ trợ"
+      get_help_sample_app: "Để được trợ giúp về Sample app, hãy xem"
+      ruby_on_book: "sách Ruby on Rails Tutorial"
+    about:
+      about_title: "Thông tin"
+      about: "Thông tin"
+      the: " "
+      ror_tutorial: "Ruby on Rails Tutorial"
+      ruby_on: "Ruby on Rails"
+      book: "sách"
+      is_a: "là"
+      screencast_series: "screencast series"
+      and: "và"
+      to_teach: "để dạy phát triển web với"
+      this_is: "Đây là ứng dụng mẫu cho hướng dẫn."
+    contact:
+      contact_title: "Liên hệ"
+      contact: "Liên hệ"
+      contact_the: "Liên hệ Ruby on Rails Tutorial hỗ trợ về sample app tại"
+      contact_page: "trang liên hệ"
+  layouts:
+    application:
+      ror_tutorial: "Ruby on Rails Tutorial Sample App"
+    footer:
+      the: " "
+      by: "bởi"
+      michael: "Michael Hartl"
+      new: "Làm mới"
+      ruby_on: "Ruby on rails Tutorials"
+      home: "Trang chủ"
+      help: "Hỗ trợ"
+      log_in: "Đăng nhập"
+      contact: "Liên hệ"
+      about: "Thông tin"
+      sample_app: "sample_app"
+  users:
+    sign: "Đăng kí"
+    sign_up: "Đăng kí"
+    this: "Đây là trang đăng kí cho thành viên mới"
