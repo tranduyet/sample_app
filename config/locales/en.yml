@@ -51,3 +51,13 @@ en:
       sign: "Sign up"
       sign_up: "Sign up"
       this: "This will be a signup page for new users"
+      create: "Create my account"
+      confirm: "Confirmation"
+    create:
+      welcome: "Welcome to the Sample App!"
+      user_not_found: "User not found"
+      failed: "Failed"
+  shared:
+    error_messages:
+      error: "error"
+      the_form: "The form contains"

@@ -51,3 +51,13 @@ vi:
       sign: "Đăng kí"
       sign_up: "Đăng kí"
       this: "Đây là trang đăng kí cho thành viên mới"
+      create: "Tạo tài khoản"
+      confirm: "Xác nhận mật khẩu"
+    create:
+      welcome: "Chào mừng đến Sample App!"
+      user_not_found: "Không tìm thấy người dùng"
+      failed: "Thất bại"
+  shared:
+    error_messages:
+      error: "lỗi"
+      the_form: "Đăng kí"

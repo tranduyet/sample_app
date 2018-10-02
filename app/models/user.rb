@@ -4,6 +4,7 @@ class User < ApplicationRecord
   validates :email, presence: true, length: {maximum: Settings.users.max_pass},
     format: {with: VALID_EMAIL_REGEX},uniqueness: {case_sensitive: false}
   has_secure_password
+  validates :password, presence: true, length: {minimum: Settings.users.min_pass}
 
   private
 

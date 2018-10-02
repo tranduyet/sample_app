@@ -8,6 +8,7 @@ static_pages:
 users:
   max_name: 50
   max_pass: 255
+  min_pass: 6
 layouts:
   rails: "http://www.railstutorial.org/"
   news: "http://news.railstutorial.org/"
