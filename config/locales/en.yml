@@ -1,7 +1,8 @@
 en:
   static_pages:
     home:
-      home_title: "Home"
+      sign_up: "Sign up now!!"
+      home_title: "Welcom to the Sample app"
       sample_app: "Sample App"
       this_is: "This is the home page for the"
       ruby_on: "Ruby on rails Tutorials"
@@ -32,4 +33,20 @@ en:
       contact_page: "contact page"
   layouts:
     application:
-      ror_tutorial: "| Ruby on Rails Tutorial Sample App"
+      ror_tutorial: "Ruby on Rails Tutorial Sample App"
+    footer:
+      the: "The"
+      by: "by"
+      michael: "Michael Hartl"
+      new: "News"
+      ruby_on: "Ruby on rails Tutorials"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+      contact: "Contact"
+      about: "About"
+      sample_app: "sample_app"
+  users:
+    sign: "Sign up"
+    sign_up: "Sign up"
+    this: "This will be a signup page for new users"
