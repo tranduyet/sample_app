@@ -47,6 +47,7 @@ en:
       about: "About"
       sample_app: "sample_app"
   users:
-    sign: "Sign up"
-    sign_up: "Sign up"
-    this: "This will be a signup page for new users"
+    new:
+      sign: "Sign up"
+      sign_up: "Sign up"
+      this: "This will be a signup page for new users"

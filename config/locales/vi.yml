@@ -47,6 +47,7 @@ vi:
       about: "Thông tin"
       sample_app: "sample_app"
   users:
-    sign: "Đăng kí"
-    sign_up: "Đăng kí"
-    this: "Đây là trang đăng kí cho thành viên mới"
+    new:
+      sign: "Đăng kí"
+      sign_up: "Đăng kí"
+      this: "Đây là trang đăng kí cho thành viên mới"
