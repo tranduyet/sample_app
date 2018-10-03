@@ -46,8 +46,31 @@ en:
       contact: "Contact"
       about: "About"
       sample_app: "sample_app"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
+      users: "User"
+      log_out: "Log out"
   users:
     new:
       sign: "Sign up"
       sign_up: "Sign up"
       this: "This will be a signup page for new users"
+      create: "Create my account"
+      confirm: "Confirmation"
+    create:
+      welcome: "Welcome to the Sample App!"
+      user_not_found: "User not found"
+      failed: "Failed"
+  shared:
+    error_messages:
+      error: "error"
+      the_form: "The form contains"
+  sessions:
+    new:
+      log_in: "Log in"
+      log: "Log in"
+      new: "New user?"
+      sign_up: "Sign up now!!"
+    create:
+      invalidemail_passcom: "Invalid email/password combination"
