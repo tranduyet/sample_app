@@ -72,5 +72,6 @@ vi:
       log: "Đăng nhập"
       new: "Thành viên mới?"
       sign_up: "Đăng kí ngay!!"
+      remember: "Ghi nhớ tài khoản trên máy tính"
     create:
       invalidemail_passcom: "Email không tồn tại/ mật khẩu không chính xác"

@@ -72,5 +72,6 @@ en:
       log: "Log in"
       new: "New user?"
       sign_up: "Sign up now!!"
+      remember: "Remember me on this computer"
     create:
       invalidemail_passcom: "Invalid email/password combination"
