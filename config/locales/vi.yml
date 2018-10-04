@@ -46,8 +46,51 @@ vi:
       contact: "Liên hệ"
       about: "Thông tin"
       sample_app: "sample_app"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      account: "Tài khoản"
+      users: "Người dùng"
+      log_out: "Đăng xuất"
   users:
     new:
       sign: "Đăng kí"
       sign_up: "Đăng kí"
       this: "Đây là trang đăng kí cho thành viên mới"
+      create: "Tạo tài khoản"
+      confirm: "Xác nhận mật khẩu"
+    create:
+      welcome: "Chào mừng đến Sample App!"
+      user_not_found: "Không tìm thấy người dùng"
+      failed: "Thất bại"
+    update:
+      profile_updated: "Hồ sơ được cập nhật"
+    login_in_user:
+      please_login: "Đăng nhập tài khoản."
+    edit:
+      update: "Cập nhật thông tin"
+      save: "Lưu thay đổi"
+      change: "Thay đổi"
+      edit_user: "Chỉnh sửa"
+      confirmation: "Xác nhận"
+    destroy:
+      des: "Xóa người dùng"
+      dele_fail: "Xóa người dùng thất bại"
+    find_user:
+      not_found_user: "Người dùng không tìm thấy"
+    index:
+      all_users: "Tất cả người dùng"
+    user:
+      sure: "Xác nhận xóa?"
+  shared:
+    error_messages:
+      error: "lỗi"
+      the_form: "Đăng kí"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      log: "Đăng nhập"
+      new: "Thành viên mới?"
+      sign_up: "Đăng kí ngay!!"
+      remember: "Ghi nhớ tài khoản trên máy tính"
+    create:
+      invalidemail_passcom: "Email không tồn tại/ mật khẩu không chính xác"
