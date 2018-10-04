@@ -46,6 +46,11 @@ en:
       contact: "Contact"
       about: "About"
       sample_app: "sample_app"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
+      users: "User"
+      log_out: "Log out"
   users:
     new:
       sign: "Sign up"
@@ -61,3 +66,11 @@ en:
     error_messages:
       error: "error"
       the_form: "The form contains"
+  sessions:
+    new:
+      log_in: "Log in"
+      log: "Log in"
+      new: "New user?"
+      sign_up: "Sign up now!!"
+    create:
+      invalidemail_passcom: "Invalid email/password combination"
