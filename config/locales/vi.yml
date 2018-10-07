@@ -62,6 +62,7 @@ vi:
       welcome: "Chào mừng đến Sample App!"
       user_not_found: "Không tìm thấy người dùng"
       failed: "Thất bại"
+      please_check: "Kiểm tra email để xác nhận người dùng"
     update:
       profile_updated: "Hồ sơ được cập nhật"
     login_in_user:
@@ -81,6 +82,16 @@ vi:
       all_users: "Tất cả người dùng"
     user:
       sure: "Xác nhận xóa?"
+  user_mailer:
+    account_activation:
+      acc_activation: "Xác nhận tài khoản"
+      user_acc_active: "Xác nhận tài khoản người dùng"
+      welcome: "Chào mừng tới] Sample App! Chọn để xác nhận tài khoản của bạn:"
+      samapp: "Sample App"
+      hi: "Xin chào"
+      active: "Xác nhận"
+    password_reset:
+      user_pass_reset: "password_reset"
   shared:
     error_messages:
       error: "lỗi"
@@ -94,3 +105,7 @@ vi:
       remember: "Ghi nhớ tài khoản trên máy tính"
     create:
       invalidemail_passcom: "Email không tồn tại/ mật khẩu không chính xác"
+  account_activation:
+    edit:
+      account_activated: "Tài khoản được xác nhận!"
+      invalid: "Xác thực tài khoản!"
