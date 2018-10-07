@@ -14,11 +14,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><%= link_to t(".profile"), current_user %></li>
-<<<<<<< HEAD
-            <li><%= link_to t(".settings"), "#" %></li>
-=======
             <li><%= link_to t(".settings"), edit_user_path(current_user) %></li>
->>>>>>> updating-users
             <li class="divider"></li>
             <li>
               <%= link_to t(".log_out"), logout_path, method: :delete %>
