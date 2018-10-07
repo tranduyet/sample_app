@@ -5,7 +5,7 @@ class User < ApplicationRecord
   validates :email, presence: true, length: {maximum: Settings.users.max_pass},
     format: {with: VALID_EMAIL_REGEX},uniqueness: {case_sensitive: false}
   has_secure_password
-  validates :password, presence: true, length: {minimum: Settings.users.min_pass}
+  validates :password, presence: true, length: {minimum: Settings.users.min_pass}, allow_nil: true
 
   def User.digest string
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
@@ -23,7 +23,7 @@ class User < ApplicationRecord
   end
 
   def authenticated? remember_token
-    return false if remember_digest.nil?
+    return unless remember_digest
     BCrypt::Password.new(remember_digest).is_password? remember_token
   end
 

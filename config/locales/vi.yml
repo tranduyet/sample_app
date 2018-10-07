@@ -62,6 +62,25 @@ vi:
       welcome: "Chào mừng đến Sample App!"
       user_not_found: "Không tìm thấy người dùng"
       failed: "Thất bại"
+    update:
+      profile_updated: "Hồ sơ được cập nhật"
+    login_in_user:
+      please_login: "Đăng nhập tài khoản."
+    edit:
+      update: "Cập nhật thông tin"
+      save: "Lưu thay đổi"
+      change: "Thay đổi"
+      edit_user: "Chỉnh sửa"
+      confirmation: "Xác nhận"
+    destroy:
+      des: "Xóa người dùng"
+      dele_fail: "Xóa người dùng thất bại"
+    find_user:
+      not_found_user: "Người dùng không tìm thấy"
+    index:
+      all_users: "Tất cả người dùng"
+    user:
+      sure: "Xác nhận xóa?"
   shared:
     error_messages:
       error: "lỗi"
